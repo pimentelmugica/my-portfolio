@@ -1,6 +1,5 @@
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="images/me.png" alt="Markdownify" width="200"></a>
   <br>
   Javier Pimentel - Software Quality Engineer
   <br>
