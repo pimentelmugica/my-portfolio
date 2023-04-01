@@ -5,14 +5,23 @@
   <br>
 </h1>
 
-![screenshot](docs/presentation.gif)
-
 ## Portfolio
 
-- Home
-- About
-- Experience
-- Contact
+### Home
+
+![screenshot](imgs/home.png)
+
+### About
+
+![screenshot](imgs/about-me.png)
+
+### Experience
+
+![screenshot](imgs/experience.png)
+
+### Contact
+
+![screenshot](imgs/contact.png)
 
 ## Credits
 
