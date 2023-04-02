@@ -6,6 +6,7 @@
 </h1>
 
 ## Portfolio
+Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/7ae9fe0b-aae5-4873-887d-5a7930024f04/deploy-status)](https://app.netlify.com/sites/javierpimentelmugica/deploys)
 
 ### Home
 
