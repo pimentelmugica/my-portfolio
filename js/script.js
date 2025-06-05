@@ -59,10 +59,10 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /* typed js */
 const typed = new Typed('.multiple-text', {
-  strings: ['Software Engineer', 'Quality Enthusiast', 'Developer Productivity Advocate'],
-  typeSpeed: 100,
-  backSpeed: 50,
-  backDelay: 1000,
+  strings: ['Software Engineer', 'Quality Enthusiast'],
+  typeSpeed: 200,
+  backSpeed: 100,
+  backDelay: 3000,
   loop: true,
 });
 
