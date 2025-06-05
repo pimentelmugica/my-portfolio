@@ -57,14 +57,14 @@ ScrollReveal().reveal(
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
-/* typed js */
-const typed = new Typed('.multiple-text', {
-  strings: ['Software Engineer', 'Quality Enthusiast'],
-  typeSpeed: 50,
-  backSpeed: 25,
-  backDelay: 1000,
-  loop: true,
-});
+  /* typed js */
+  const typed = new Typed('.multiple-text', {
+    strings: ['Software Engineer', 'Quality Enthusiast'],
+    typeSpeed: 80,
+    backSpeed: 40,
+    backDelay: 2000,
+    loop: true,
+  });
 
 /* cv download */
 let downloadCv = document.querySelector('#download');
