@@ -60,9 +60,9 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /* typed js */
 const typed = new Typed('.multiple-text', {
   strings: ['Software Engineer', 'Quality Enthusiast'],
-  typeSpeed: 200,
-  backSpeed: 100,
-  backDelay: 3000,
+  typeSpeed: 50,
+  backSpeed: 25,
+  backDelay: 1000,
   loop: true,
 });
 
