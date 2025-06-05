@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javier Pimentel - Software Quality Engineer</title>
-
+    <meta name="description" content="Javier Pimentel - Software Quality Engineer Portfolio" />
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon" />
     <!-- box icons-->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -19,9 +19,7 @@
     <!-- header design -->
     <header class="header">
       <a href="#" class="logo">Javier Pimentel</a>
-
       <i class="bx bx-menu" id="menu-icon"></i>
-
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
@@ -29,33 +27,33 @@
         <a href="#contact">Contact</a>
       </nav>
     </header>
-
     <!-- home section design -->
     <section class="home" id="home">
       <div class="home-content">
         <h3>Hello, It's me</h3>
         <h1>Javier Pimentel</h1>
+        <h2 style="display:none;">Software Quality Engineer Portfolio</h2>
         <h3>And I'm a <span class="multiple-text"></span></h3>
         <p></p>
         <div class="social-media">
-          <a href="#linkedin"
-            ><i class="bx bxl-linkedin-square" id="linkedin"></i
-          ></a>
-          <a href="#github"><i class="bx bxl-github" id="github"></i></a>
+          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener">
+            <i class="bx bxl-github"></i>
+          </a>
         </div>
-        <a href="#" class="btn" id="download">Download CV</a>
+        <a href="cv/JavierPimentelCV.pdf" class="btn" id="download" download>Download CV</a>
       </div>
       <div class="home-img">
-        <img src="imgs/me.png" alt="" />
+        <img src="imgs/me.png" alt="Javier Pimentel portrait" />
       </div>
     </section>
-
     <!-- about section design -->
     <section class="about" id="about">
       <div class="about-img">
-        <img src="imgs/about.png" alt="" />
+        <img src="imgs/about.png" alt="About Javier Pimentel" />
       </div>
-
       <div class="about-content">
         <h2 class="heading">About <span>Me</span></h2>
         <h3>Software Quality Engineer</h3>
@@ -68,7 +66,6 @@
         </p>
       </div>
     </section>
-
     <!-- experience section desgin -->
     <section class="experience" id="experience">
       <h2 class="heading">My <span>Experience</span></h2>
@@ -81,7 +78,6 @@
           </p>
           <p>Design and execution of comprehensive automation and manual solutions in agile and multidisciplinary teams.</p>
         </div>
-
         <div class="experience-box">
           <i class="bx bx-code bx-flip-horizontal bx-tada"></i>
           <h3>BackEnd Testing</h3>
@@ -90,7 +86,6 @@
           </p>
           <p>Databases, performance, reports... All part of the continuous integration of the team.</p>
         </div>
-
         <div class="experience-box">
           <i class="bx bx-code-curly bx-tada bx-flip-horizontal"></i>
           <h3>API</h3>
@@ -99,9 +94,8 @@
           </p>
           <p>Always trying to spread best practices for a robust and reliable API.</p>
         </div>
-
         <div class="experience-box">
-          <i class='bx bx-objects-horizontal-left bx-tada' ></i>
+          <i class='bx bx-objects-horizontal-left bx-tada'></i>
           <h3>Quality Strategies</h3>
           <p>Quality matters... a lot.</p>
           <p>From the early stages of the project, I try to make quality a fundamental pillar for all the roles involved.</p>
@@ -109,21 +103,24 @@
         </div>
       </div>
     </section>
-
     <!-- contact section design -->
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
-
-      <form action="https://formsubmit.co/916752cca4daa2bcdf5163ff673236f2" method="POST" />
+      <form action="https://formsubmit.co/916752cca4daa2bcdf5163ff673236f2" method="POST">
         <div class="input-box">
-          <input type="text" placeholder="Full Name" name="Name"/>
-          <input type="email" placeholder="Email Address" name="Email"/>
+          <label for="name" style="display:none;">Full Name</label>
+          <input type="text" placeholder="Full Name" name="Name" id="name"/>
+          <label for="email" style="display:none;">Email Address</label>
+          <input type="email" placeholder="Email Address" name="Email" id="email"/>
         </div>
         <div class="input-box">
-          <input type="number" placeholder="Mobile Number" name="Mobile"/>
+          <label for="mobile" style="display:none;">Mobile Number</label>
+          <input type="number" placeholder="Mobile Number" name="Mobile" id="mobile"/>
+          <label for="subject" style="display:none;">Email Subject</label>
           <input type="text" placeholder="Email Subject" id="subject" name="subject"/>
         </div>
-        <textarea name="body" id="" cols="30" rows="10" placeholder="Your Message" id="body"></textarea>
+        <label for="body" style="display:none;">Your Message</label>
+        <textarea name="body" id="body" cols="30" rows="10" placeholder="Your Message"></textarea>
         <input
           type="submit"
           value="Send Message"
@@ -134,7 +131,6 @@
         <input type="hidden" name="_captcha" value="false">
       </form>
     </section>
-
     <!-- footer design -->
     <footer class="footer">
       <div class="footer-text">
@@ -146,13 +142,10 @@
         </a>
       </div>
     </footer>
-
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
-
     <!-- typed js -->
     <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
-
     <!-- custom js -->
     <script src="js/script.js"></script>
   </body>
